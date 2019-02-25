@@ -12,8 +12,15 @@
   <description>Third party validation modules for JHOVE.</description>
 
   <properties>
-    <jwat.version>1.0.3</jwat.version>
+    <jwat.version>1.1.1</jwat.version>
   </properties>
+
+  <repositories>
+    <repository>
+      <id>jitpack.io</id>
+      <url>https://jitpack.io</url>
+    </repository>
+  </repositories>
 
   <build>
     <plugins>
@@ -71,9 +78,9 @@
       <version>${jwat.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.jwat</groupId>
-      <artifactId>jwat-warc</artifactId>
-      <version>${jwat.version}</version>
+      <groupId>com.github.maeb</groupId>
+      <artifactId>jwat</artifactId>
+      <version>fix~warcrecord-SNAPSHOT</version>
     </dependency>
   </dependencies>
 </project>
